@@ -5,3 +5,5 @@ df = pd.read_csv("https://raw.githubusercontent.com/guilhermeonrails/data-jobs/r
 print(df.head())
 
 print(df.info())
+
+print(df.describe())
